@@ -1,3 +1,7 @@
+const primaryButtonColor = '#61d800'
+const closedButtonColor = '#979797'
+const githubButtonColor = '#24292e'
+
 export const products = [
   {
     title: 'MoonAgeScript',
@@ -8,7 +12,7 @@ export const products = [
     buttons: [
       {
         buttonText: 'Github',
-        buttonColor: '#24292e',
+        buttonColor: githubButtonColor,
         buttonUrl: 'https://github.com/okaryo/MoonAgeScript'
       }
     ]
@@ -22,12 +26,12 @@ export const products = [
     buttons: [
       {
         buttonText: 'Chrome Store',
-        buttonColor: '#61d800',
+        buttonColor: primaryButtonColor,
         buttonUrl: 'https://chrome.google.com/webstore/detail/flexpropertiesdemo/piedopbogafaonndboholpinjhdcgmda'
       },
       {
         buttonText: 'Github',
-        buttonColor: '#24292e',
+        buttonColor: githubButtonColor,
         buttonUrl: 'https://github.com/okaryo/ChromeExtension/tree/master/FlexPropertiesDemo'
       }
     ]
@@ -41,12 +45,12 @@ export const products = [
     buttons: [
       {
         buttonText: 'Chrome Store',
-        buttonColor: '#61d800',
+        buttonColor: primaryButtonColor,
         buttonUrl: 'https://chrome.google.com/webstore/detail/tabtabtab/hfmnidllojimehmfjkclnadpebibhgoi'
       },
       {
         buttonText: 'Github',
-        buttonColor: '#24292e',
+        buttonColor: githubButtonColor,
         buttonUrl: 'https://github.com/okaryo/ChromeExtension/tree/master/TabTabTab'
       }
     ]
@@ -60,12 +64,12 @@ export const products = [
     buttons: [
       {
         buttonText: 'Visit Site',
-        buttonColor: '#61d800',
+        buttonColor: primaryButtonColor,
         buttonUrl: 'https://okaryo.github.io/shiren-fei/index.html'
       },
       {
         buttonText: 'Github',
-        buttonColor: '#24292e',
+        buttonColor: githubButtonColor,
         buttonUrl: 'https://github.com/okaryo/shiren-fei'
       }
     ]
@@ -78,13 +82,13 @@ export const products = [
     description: 'This VSCode extension displays current time and total time(from opening VSCode) at the bottom of editor.',
     buttons: [
       {
-        buttonText: 'VSCode Marketplace',
-        buttonColor: '#61d800',
+        buttonText: 'Marketplace',
+        buttonColor: primaryButtonColor,
         buttonUrl: 'https://marketplace.visualstudio.com/items?itemName=okaryo.timechecker'
       },
       {
         buttonText: 'Github',
-        buttonColor: '#24292e',
+        buttonColor: githubButtonColor,
         buttonUrl: 'https://github.com/okaryo/VSCodeExtension/tree/master/timechecker'
       }
     ]
@@ -98,7 +102,7 @@ export const products = [
     buttons: [
       {
         buttonText: 'Closed',
-        buttonColor: '#979797',
+        buttonColor: closedButtonColor,
         buttonUrl: '',
       }
     ]
@@ -112,7 +116,7 @@ export const products = [
     buttons: [
       {
         buttonText: 'LINE STORE',
-        buttonColor: '#61d800',
+        buttonColor: primaryButtonColor,
         buttonUrl: 'https://store.line.me/emojishop/author/1037627'
       }
     ]
@@ -126,7 +130,7 @@ export const products = [
     buttons: [
       {
         buttonText: 'Closed',
-        buttonColor: '#979797',
+        buttonColor: closedButtonColor,
         buttonUrl: ''
       }
     ]
@@ -140,7 +144,7 @@ export const products = [
     buttons: [
       {
         buttonText: 'Closed',
-        buttonColor: '#979797',
+        buttonColor: closedButtonColor,
         buttonUrl: ''
       }
     ]
@@ -154,13 +158,13 @@ export const products = [
     buttons: [
       {
         buttonText: 'Closed',
-        buttonColor: '#979797',
+        buttonColor: closedButtonColor,
         buttonUrl: ''
       }
     ]
   },
   {
-    title: 'LINE Stamp',
+    title: 'LINE STAMP',
     year: 'Dec. 2016 ~',
     imageName: 'line_stamp.png',
     imagePositionMiddle: true,
@@ -168,7 +172,7 @@ export const products = [
     buttons: [
       {
         buttonText: 'LINE STORE',
-        buttonColor: '#61d800',
+        buttonColor: primaryButtonColor,
         buttonUrl: 'https://line.me/S/shop/sticker/author/119727'
       }
     ]

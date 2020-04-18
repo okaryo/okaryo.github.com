@@ -36,7 +36,7 @@ const Products = () => {
 
       return(
         <div key={index} style={buttonStyle} className="portfolio_product_card_button">
-          <a href={button.buttonUrl} style={fontColor}>{button.buttonText}</a>
+          <a href={button.buttonUrl} target="_blank" style={fontColor}>{button.buttonText}</a>
         </div>
       )
     })
