@@ -36,7 +36,14 @@ const Products = () => {
 
       return(
         <div key={index} style={buttonStyle} className="portfolio_product_card_button">
-          <a href={button.buttonUrl} target="_blank" style={fontColor}>{button.buttonText}</a>
+          <a
+            href={button.buttonUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={fontColor}
+          >
+            {button.buttonText}
+          </a>
         </div>
       )
     })
@@ -58,7 +65,10 @@ const Products = () => {
       return(
         <div key={index} className="portfolio_product_card">
           <div className="portfolio_product_card_image_continer">
-            <img style={imagePositionStyle} src={`http://okaryo.github.io/api/images/portfolio/products/${product.imageName}`} alt={product.title} />
+            <img
+              style={imagePositionStyle}
+              src={`http://okaryo.github.io/api/images/portfolio/products/${product.imageName}`} alt={product.title}
+            />
           </div>
           <div className="portfolio_product_card_text_container">
             <h3>{product.title}</h3>
