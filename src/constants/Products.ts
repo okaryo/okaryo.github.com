@@ -21,7 +21,7 @@ export const products = [
     title: 'Flex Properties Demo',
     year: 'Mar. 2020',
     imageName: 'flex_properties_demo.png',
-    imagePositionMiddle: true,
+    imagePositionMiddle: false,
     description: 'With this chrome extension, you can try flex-box property easily!',
     buttons: [
       {
@@ -40,7 +40,7 @@ export const products = [
     title: 'TabTabTab',
     year: 'Mar. 2020',
     imageName: 'tabtabtab.png',
-    imagePositionMiddle: true,
+    imagePositionMiddle: false,
     description: 'This chrome extension shows you your opening tabs in the form of a list.',
     buttons: [
       {
@@ -56,7 +56,7 @@ export const products = [
     ]
   },
   {
-    title: 'CheckList Page for Final Problem of Fei(Shiren)',
+    title: 'CheckList for Final Problem of Fei(Shiren)',
     year: 'Jan. 2020',
     imageName: 'shiren_fei.png',
     imagePositionMiddle: false,
