@@ -23,12 +23,12 @@
   display: inline-block;
   height: 48px;
   vertical-align: middle;
-  border-bottom: 2px solid #75e900;
 }
 .portfolio_navigation_block li + li {
   margin-left: 24px;
 }
 .portfolio_navigation_block a {
   display: inline-block;
+  color: #757575;
   line-height: 48px;
 }
