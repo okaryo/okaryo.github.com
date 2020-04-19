@@ -7,6 +7,7 @@ import {
 import Header from './components/Header'
 import Products from './components/Products'
 import Profile from './components/Profile'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import NavigationStyle from './constants/NavigationStyle'
 
@@ -42,10 +43,6 @@ const App = () => {
       <Footer />
     </Router>
   )
-}
-
-const Contact = () => {
-  return <p>contact</p>
 }
 
 export default App;
