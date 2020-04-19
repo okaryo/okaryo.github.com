@@ -1,21 +1,3 @@
-export const PortfolioItems = {
-  title: 'Portfolio',
-  items: [
-    {
-      itemName: 'Products',
-      itemUrl: '/'
-    },
-    {
-      itemName: 'Profile',
-      itemUrl: '/'
-    },
-    {
-      itemName: 'Contact',
-      itemUrl: '/'
-    }
-  ]
-}
-
 export const ProductItems = {
   title: 'Products',
   items: [
