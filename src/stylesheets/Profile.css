@@ -2,8 +2,10 @@
   padding: 30px;
   color: #231815;
 }
-.portfolio_profile_me {
-  height: 88px;
+.portfolio_profile_me::after {
+  content: '';
+  display: block;
+  clear: both;
 }
 .portfolio_profile_me img {
   display: block;
@@ -71,4 +73,16 @@
   height: 100%;
   width: 100%;
   background-color: #EEEEEE;
+}
+
+@media (max-width: 720px) {
+  .portfolio_profile_detail {
+    flex-wrap: wrap;
+  }
+  .portfolio_profile_history {
+    width: 100%;
+  }
+  .portfolio_profile_skill {
+    width: 100%;
+  }
 }
