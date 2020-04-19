@@ -1,21 +1,3 @@
-export const PortfolioItems = {
-  title: 'Portfolio',
-  items: [
-    {
-      itemName: 'Products',
-      itemUrl: '/'
-    },
-    {
-      itemName: 'Profile',
-      itemUrl: '/'
-    },
-    {
-      itemName: 'Contact',
-      itemUrl: '/'
-    }
-  ]
-}
-
 export const ProductItems = {
   title: 'Products',
   items: [
@@ -74,7 +56,7 @@ export const SocialItems = {
       itemUrl: 'https://atcoder.jp/users/okaryo'
     },
     {
-      itemName: 'Amazon Wish List',
+      itemName: 'WishList',
       itemUrl: 'https://www.amazon.jp/hz/wishlist/ls/3F7T4Z1GG7ORH?ref_=wl_share'
     }
   ]

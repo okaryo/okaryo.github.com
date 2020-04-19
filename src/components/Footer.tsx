@@ -1,5 +1,6 @@
 import React from 'react'
-import { PortfolioItems, ProductItems, SocialItems } from '../constants/FooterItems'
+import { Link } from 'react-router-dom'
+import { ProductItems, SocialItems } from '../constants/FooterItems'
 import '../stylesheets/Footer.css'
 
 interface FooterItemProps {
@@ -19,7 +20,13 @@ const Footer = () => {
     const FooterItems = footerList.items.map((item, index) => {
       return(
         <li key={index} className="portfolio_footer_item">
-          <a href={item.itemUrl}>{item.itemName}</a>
+          <a
+            href={item.itemUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {item.itemName}
+          </a>
         </li>
       )
     })
@@ -30,7 +37,6 @@ const Footer = () => {
         <ul>
           {FooterItems}
         </ul>
-
       </div>
     )
   }
@@ -38,9 +44,20 @@ const Footer = () => {
   return(
     <footer className="portfolio_footer_container">
       <div className="portfolio_footer_menus">
-        <FooterList
-          footerItems={PortfolioItems}
-        />
+        <div>
+          <div className="portfolio_footer_item_title">Portfolio</div>
+          <ul>
+            <li className="portfolio_footer_item">
+              <Link to="/products">Products</Link>
+            </li>
+            <li className="portfolio_footer_item">
+              <Link to="/profile">Profile</Link>
+            </li>
+            <li className="portfolio_footer_item">
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </div>
         <div className="portfolio_footer_empty"></div>
         <FooterList
           footerItems={ProductItems}

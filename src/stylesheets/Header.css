@@ -23,12 +23,42 @@
   display: inline-block;
   height: 48px;
   vertical-align: middle;
-  border-bottom: 2px solid #75e900;
 }
 .portfolio_navigation_block li + li {
   margin-left: 24px;
 }
 .portfolio_navigation_block a {
   display: inline-block;
+  color: #757575;
   line-height: 48px;
+}
+
+@media (max-width: 720px) {
+  .portfolio_header {
+    display: block;
+    height: 96px;
+    padding: 0;
+    box-shadow: 0 0 0px;
+  }
+  .portfolio_title {
+    justify-content: center;
+  }
+  .portfolio_navigation_block {
+    margin-left: 0;
+    border-top: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F6F6F6;
+  }
+  .portfolio_navigation_block ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .portfolio_navigation_block li {
+    display: inline-block;
+    height: 48px;
+    vertical-align: middle;
+  }
+  .portfolio_navigation_block li + li {
+    margin-left: 0;
+  }
 }
