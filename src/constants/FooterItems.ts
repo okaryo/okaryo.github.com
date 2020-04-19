@@ -27,7 +27,7 @@ export const ProductItems = {
     },
     {
       itemName: 'LINE STAMP',
-      itemUrl: 'ttps://line.me/S/shop/sticker/author/119727'
+      itemUrl: 'https://line.me/S/shop/sticker/author/119727'
     }
   ]
 }
