@@ -1,0 +1,74 @@
+.portfolio_profile_container {
+  padding: 30px;
+  color: #231815;
+}
+.portfolio_profile_me {
+  height: 88px;
+}
+.portfolio_profile_me img {
+  display: block;
+  float: left;
+  height: 88px;
+  border: solid 1px #dcdddd;
+  margin-right: 22px;
+}
+.portfolio_profile_me h2 {
+  font-size: 18px;
+}
+.portfolio_profile_me p {
+  font-size: 14px;
+}
+.portfolio_profile_detail {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio_profile_detail h3 {
+  margin-bottom: 10px;
+}
+.portfolio_profile_detail ul {
+  margin-bottom: 30px;
+}
+.portfolio_profile_detail .portfolio_profile_list_sub {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #757575;
+}
+.portfolio_profile_history {
+  width: 48%;
+}
+.portfolio_profile_skill {
+  width: 48%;
+}
+.portfolio_profile_skill_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portfolio_profile_skill_container:first-of-type {
+  margin-bottom: 30px;
+}
+.portfolio_profile_skill_unit {
+  width: 48%;
+  margin-bottom: 15px;
+}
+.portfolio_profile_skill_bar {
+  height: 11px;
+  position: relative;
+}
+.portfolio_profile_skill_progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #75e900;
+  z-index: 2;
+}
+.portfolio_profile_skill_unprogress {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #EEEEEE;
+}
