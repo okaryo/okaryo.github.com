@@ -4,6 +4,20 @@ const githubButtonColor = '#24292e'
 
 export const products = [
   {
+    title: '2nd Portfolio',
+    year: 'Apr. 2020',
+    imageName: 'second_portfolio.png',
+    imagePositionMiddle: false,
+    description: 'My portfolio site has been reborn by React and TypeScript!',
+    buttons: [
+      {
+        buttonText: 'Here!',
+        buttonColor: primaryButtonColor,
+        buttonUrl: ''
+      }
+    ]
+  },
+  {
     title: 'MoonAgeScript',
     year: 'Apr. 2020',
     imageName: 'moon_age_script.png',
