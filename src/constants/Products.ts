@@ -125,7 +125,7 @@ export const products = [
     title: 'LINE EMOJI',
     year: 'Apr. 2019',
     imageName: 'line_emoji.png',
-    imagePositionMiddle: true,
+    imagePositionMiddle: false,
     description: "Original characters are now available as emojis! I hope you'll try it.",
     buttons: [
       {
@@ -181,7 +181,7 @@ export const products = [
     title: 'LINE STAMP',
     year: 'Dec. 2016 ~',
     imageName: 'line_stamp.png',
-    imagePositionMiddle: true,
+    imagePositionMiddle: false,
     description: "My original characters! I'm grad if you buy and use them.",
     buttons: [
       {
