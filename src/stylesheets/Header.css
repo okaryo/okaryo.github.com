@@ -24,6 +24,10 @@
   height: 48px;
   vertical-align: middle;
 }
+.portfolio_navigation_block li:hover,
+.portfolio_navigation_block li:focus {
+  border-bottom: 2px solid #757575;
+}
 .portfolio_navigation_block li + li {
   margin-left: 24px;
 }
@@ -31,6 +35,10 @@
   display: inline-block;
   color: #757575;
   line-height: 48px;
+}
+.portfolio_navigation_block a:hover,
+.portfolio_navigation_block a:focus {
+  color: #231815;
 }
 
 @media (max-width: 720px) {
