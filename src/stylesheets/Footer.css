@@ -10,10 +10,15 @@
   margin: 10px 0 5px;
   font-size: 16px;
   font-weight: bold;
+  font-size: 18px;
+}
+.portfolio_footer_item {
+  margin-top: 5px;
 }
 .portfolio_footer_item > a {
   font-size: 14px;
   color: #3c3c3c;
+  font-size: 16px;
 }
 .portfolio_footer_item > a:hover {
   text-decoration: underline;
